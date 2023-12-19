@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script>alert('usuario n encontrado') </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    
+
+    <main id="container">
+       <!-- <?php
+          include("topo.php");
+                         
+        ?> -->
+        <form id="login_form">
+            
+            <div id="form_header">
+                <!-- <h1>Acesso</h1> -->
+                <img src="image/login-icons-png-4.png" alt="">
+            </div>
+            <!-- <hr> -->
+            <div id="inputs">
+                <div class="box">
+                    <div class="input__wrapper">
+                            <input 
+                                id="password" 
+                                type="tel" 
+                                name="matricula" 
+                                placeholder="Your Password" 
+                                class="input__field"
+                            >
+                            <label for="email" class="input__label">
+                                matricula
+                            </label>
+                            
+                    </div>
+                <div class="box">
+                    <div class="input__wrapper">
+                        <input 
+                            id="password" 
+                            type="text" 
+                            name="email" 
+                            placeholder="Your Password" 
+                            class="input__field"
+                        >
+                        <label for="email" class="input__label">
+                            e-mail
+                        </label>
+                   
+                    
+                </div>
+                <div class="box">
+                    <div class="input__wrapper">
+                        <input 
+                            id="password" 
+                            type="password" 
+                            name="password" 
+                            placeholder="Your Password" 
+                            title="Minimum 6 characters at least 1 Alphabet and 1 Number" 
+                            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+                            required class="input__field"
+                        >
+                        <label for="password" class="input__label">
+                            senha
+                        </label>
+                        <img 
+                            alt="Eye Icon" title="Eye Icon" 
+                            src="image/eye.svg" class="input__icon"
+                        >
+                    </div>
+                    <button> <a href="esqueceu.html"> Esqueceu a senha</button>
+                    <button type="submit"  id="login_button">
+                        Enviar 
+                    </button>
+                   <!-- <a href="cadastre.php">cadastre-se</a> -->
+                </div>
+                
+                    
+                </div>
+            </div>
+          
+           
+            <!-- <button> <a>
+                Página Inicial 
+                </a></button>
+            </div> -->
+
+            <!-- <hr> -->
+            <!-- <?php
+            include("rodape.php");
+            
+            ?> -->
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+                 
+</body>
+</html>
